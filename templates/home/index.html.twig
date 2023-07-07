@@ -3,4 +3,18 @@
 {% block title %}Home{% endblock %}
 
 {% block body %}
+    <h1 class="my-4 text-center">Nos séries</h1>
+    <div class="d-flex flex-row justify-content-center">
+    {% for serie in series %}
+            <div class="card m-auto" style="width: 18rem;">
+            <img src="{{ asset('build/images/csoon.jpg') }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center py-1 border-black border-bottom">{{ serie.title }}</h5>
+                <p class="text-center">{{ serie.synopsis }}</p>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <h2 class="text-center my-5">Le top des séries par nos utilisateurs</h2>
+    <span class="mx-auto h-100 w-100"></span>
 {% endblock %}
