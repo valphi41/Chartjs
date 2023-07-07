@@ -11,7 +11,7 @@ class SerieFixtures extends Fixture
     public const SERIES = [
         [
             'title' => 'Walking Dead',
-            'synopsis' => 'Des zombies envahissent la terre',
+            'synopsis' => 'Des zombies envahissent la terre et un groupe essaye de survivre',
             'reference' => 'serie_1'
         ],
         [
@@ -22,13 +22,13 @@ class SerieFixtures extends Fixture
         ],
         [
             'title' => 'Breaking Bad',
-            'synopsis' => 'Un professeur devient dealer',
+            'synopsis' => 'Un professeur devient dealer de méthamphétamine',
             'reference' => 'serie_3'
 
         ],
         [
             'title' => 'Rings Of Power',
-            'synopsis' => 'Une elfe veut venger son peuple',
+            'synopsis' => 'Une elfe veut venger son peuple du mal',
             'reference' => 'serie_4'
 
         ],
