@@ -16,5 +16,7 @@
     {% endfor %}
     </div>
     <h2 class="text-center my-5">Le top des séries par nos utilisateurs</h2>
-    <span class="mx-auto h-100 w-100"></span>
+    <div class="container">
+    {{ render_chart(chart) }}
+    </div>
 {% endblock %}
